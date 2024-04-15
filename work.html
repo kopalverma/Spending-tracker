@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Spending Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Spending Tracker</h1>
+        <div id="spendingList">
+            <!-- Placeholder for spending list -->
+        </div>
+        <div id="graph">
+            <!-- Placeholder for graph -->
+        </div>
+        <button id="addSpendingBtn">Add Spending</button>
+    </div>
+
+    <!-- Popup Form -->
+    <div id="popupForm" class="popup">
+        <h2>Add Spending</h2>
+        <input type="text" id="titleInput" placeholder="Title">
+        <input type="number" id="amountInput" placeholder="Amount">
+        <button id="submitSpendingBtn">Add</button>
+        <button id="closePopupBtn">Close</button>
+    </div>
+    <canvas id="myChart"></canvas>
+    <script src="script.js"></script>
+</body>
+</html>
